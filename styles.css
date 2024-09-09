@@ -1,0 +1,39 @@
+/* Styling umum untuk body */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk video */
+video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Styling untuk pesan */
+#message {
+    display: none;
+    font-size: 24px;
+    margin: 20px;
+}
+
+/* Styling untuk tombol */
+#continueButton {
+    display: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Styling untuk tombol saat hover */
+#continueButton:hover {
+    background-color: #0056b3;
+}
